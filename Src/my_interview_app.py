@@ -10,7 +10,7 @@ Main endpoint: http://localhost:5000/show-logs/
 # Imports
 from flask import Flask, jsonify, request
 from flasgger import Swagger
-from neosec_interview.OpenApiSpec import api_spec
+from Src.OpenApiSpec import api_spec
 from datetime import datetime
 import json
 import os
